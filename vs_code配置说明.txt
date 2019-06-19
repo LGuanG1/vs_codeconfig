@@ -1,0 +1,15 @@
+1.安装好Visual Studio Code后
+   安装包下载地址：https://code.visualstudio.com/
+2.下载安装配置vs_code中编译c/c++所需要的环境
+下载地址：
+   https://sourceforge.net/projects/mingw-w64/
+   解压至一个不含有中文名的路径下，进入解压包bin目录，复制该路径。
+   将其添加值我的电脑中的环境变量Path中，打开终端gcc -v
+   出现Using built-in specs.
+   ....
+   gcc version 8.1.0...即可
+3.进入vscode在扩展程序，即最左边最下面方框中下载C/C++，Code runner即可
+  点击右上角出现的三角形运行
+4.需要使用scanf(),进入file-preference-setting-user-扩展，在终端字样前打勾.
+5.若出现中文乱码，需将GB232转换为UTF-8
+   chcp 65001
